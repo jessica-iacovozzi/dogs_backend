@@ -1,6 +1,6 @@
 class DogsController < ApplicationController
   def index
-    comicbooks= Comicbook.all
-    render json: comicbooks
+    dogs = Dog.all
+    render json: dogs
   end
 end
